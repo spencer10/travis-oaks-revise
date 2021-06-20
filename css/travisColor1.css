@@ -1,0 +1,1955 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:400,500,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Kalam:400,500,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Kaushan Script:400,500,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Satisfy:400,500,700&display=swap');
+
+
+    /* Styles map pin */
+
+    #mapPin b {
+        color:rgb(16, 67, 134);
+    }
+
+    /* LAPTOP STYLES */
+
+    body {
+        background-color: rgba(0, 0, 0, 0.089);
+    }
+
+    /* HOME PAGE STYLES */
+
+    main {
+        padding-bottom: 150px;
+        width: 95%;
+        margin: 0 auto;
+        height: 1100px;
+        max-width: 1250px;
+    }
+
+    header#head1 {
+        border-radius: 4px;
+        width: 100%;
+        height: 150px;
+        color: whitesmoke;
+        background-color: rgba(171, 250, 230, 0.411);
+        border: solid 2px rgba(0, 0, 0, 0.384);
+    }
+
+    header#mobile-head1 {
+        display: none;
+    }
+
+    header#tablet-head1 {
+        display: none;
+    }
+
+    .logo {
+        width: 35%;
+        float: left;
+        margin-left: 3%;
+        margin-top: -5px;
+        font-family: Kaushan Script;
+        font-size: 65px;
+        margin-bottom: 0px;
+    }
+
+    .logo span {
+        margin-top: -5px;
+        font-size: 85px;
+    }
+
+    /* FONT AWESONE MEDIA ICONS */
+
+    header#head1 ul#media-icons {
+        list-style-type: none;
+        width: 580px;
+        float: right;
+    }
+
+    header#head1 ul#media-icons li {
+        float: left;
+        font-family: Kalam;
+        font-size: 16px;
+        border-right: 1px solid rgba(0, 0, 0, 0.384);
+        padding: 0 10px 0 10px;
+    }
+
+    header#head1 ul#media-icons li > a:hover {
+        color: #ffffff;
+        text-decoration: underline;
+    }
+
+    header#head1 ul#media-icons li:nth-of-type(5) {
+        border-right: unset;
+    }
+
+    header#head1 ul#media-icons li:nth-of-type(6) {
+        border-right: unset;
+        font-size: 20px;
+    }
+
+    header#head1 .underLogo {
+        width: 20%;
+        margin-left: 4%;
+        margin-bottom: 5px;
+        font-family: Kaushan Script;
+        color: white;
+    }
+
+    a {
+        color: rgba(0, 0, 0, 0.384);
+        text-decoration: none;
+    } 
+
+    * {
+        box-sizing:border-box
+    }
+
+    /* Slideshow container */ 
+
+    .slideshow-container {
+        display: block;
+        position: relative; 
+        margin: auto;
+        width: 100%;
+        height: 694px;
+        overflow: hidden;
+        border: solid 2px rgba(0, 0, 0, 0.384);
+    }
+
+    .tablet-slideshow-container {
+        display: none;
+    }
+
+    .mobile-slideshow-container {
+        display: none;
+    }
+
+    /* Hide the images by default */
+
+    .mySlides {
+        display: none; 
+        width: 100%;
+    }
+
+    /* Next & previous buttons */
+
+    .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        margin-top: -22px; 
+        padding: 16px;
+        color: silver;
+        font-weight: bold; 
+        font-size: 18px;
+        transition: 0.6s ease; 
+        border-radius: 0 3px 3px 0; 
+        user-select: none;
+    }
+
+    /* Position the "next button" to the right */ 
+
+    .next {
+        right: 0;
+        border-radius: 3px 0 0 3px; 
+    }
+
+    /* On hover, add a black background color with a little bit see-through */ 
+
+    .prev:hover, .next:hover {
+        background-color: rgba(0,0,0,0.8); 
+    }
+
+    /* Caption text */ 
+
+    .text {
+        color: #f2f2f2; 
+        font-size: 15px; 
+        padding: 8px 12px; 
+        position: absolute; 
+        bottom: 8px; 
+        width: 100%; 
+        text-align: center;
+        font-family: Kalam;
+    }
+
+    .active, .dot:hover { 
+        background-color: #717171;
+    }
+
+    /* Fading animation */ 
+
+    .fade {
+        -webkit-animation-name: fade; 
+        -webkit-animation-duration: 1.5s; 
+        animation-name: fade; 
+        animation-duration: 1.5s;
+    }
+
+    @-webkit-keyframes fade {
+
+        from {opacity: .4}
+        to {opacity: 1} 
+    }
+    
+    @keyframes fade { 
+        from {opacity: .4} to {opacity: 1}
+    }
+
+    /* UPDATES SECTION */
+
+    section#announcements {
+        width: 100%;
+        height: 275px;
+        margin-top: 20px;
+        padding-left: 3.5%;
+        padding-right: 3%;
+        background-color: rgba(0, 0, 0, 0.055);
+        border: solid 2px rgba(0, 0, 0, 0.384);
+        border-radius: 4px;
+    }
+
+    section#announcements figure:nth-of-type(1) {
+        float: left;
+        width: 65%;
+        height: 209px;
+        margin: 0;
+        margin-right: 3.5%;
+        margin-top: 32px;
+        background-color: whitesmoke;
+        
+    }
+
+    section#announcements figure:nth-of-type(1) div:nth-of-type(1) {
+        width: 70%;
+        height: 180px;
+        float: left;
+        font-family: Kalam;
+
+    }
+
+    h3#welcome {
+        margin-top: 35px;
+        padding-left: 5%;
+    }
+
+    p#location {
+        margin-left: 5%;
+    }
+
+    section#announcements figure:nth-of-type(1) div:nth-of-type(2) {
+        width: 29%;
+        height: 159px;
+        float: right;
+        margin-top: 20px;
+        border-left: 3px solid rgba(169, 169, 169, 0.356);
+        font-family: Kalam; 
+    }
+
+    section#announcements figure:nth-of-type(1) div:nth-of-type(2) ul {
+        list-style-type: none;
+        margin-top: 9px;
+        font-size: 30px;
+        text-align: center;
+
+    }
+
+    .fa-map-pin {
+        color: rgb(90, 49, 128);
+        padding-right: 41px;
+        padding-top: 7px;
+
+    }
+
+    section#announcements figure:nth-of-type(1) div:nth-of-type(2) ul li:nth-of-type(1){ 
+        margin-left: -16px;
+        padding-right: 31px;
+        margin-top: 12px;
+        font-size: 16px;
+        text-decoration: underline;
+    }
+
+    section#announcements figure:nth-of-type(1) div:nth-of-type(2) ul li:nth-of-type(2){ 
+        margin-left: -4px;
+        margin-top: 2px;
+        font-size: 16px;
+    }
+
+    section#announcements figure:nth-of-type(1) div:nth-of-type(2) ul li:nth-of-type(3){ 
+        margin-left: -19px;
+        margin-top: 2px;
+        font-size: 16px;
+    
+    }
+
+    section#announcements figure:nth-of-type(2) {
+        float: left;
+        width: 31%;
+        height: 211px;
+        margin: 0;
+        margin-top: 32px;
+        overflow: hidden;
+        background-color: rgba(238, 232, 232, 0.856);
+        
+    }
+
+
+    
+    /* LANDSCAPE PHOTO SECTION */
+
+    section#landScapes {
+        padding-top: 9px;
+        width: 100%;
+        height: 429px;
+        background-color: rgba(0, 0, 0, 0.055);
+        border: solid 2px rgba(0, 0, 0, 0.384);
+        border-radius: 4px;
+    }
+
+    div#landScapeBlock {
+        margin: auto;
+        width: 100%;
+        height: 550px;
+        clear: both;
+    }
+    
+    div#landScapeBlock div:nth-of-type(1) {
+        float: left;
+        width: 28%;
+        height: 350px;
+        margin-right: 4%;
+        margin-left: 4%;
+        margin-top: 29px;
+        background-image: url(image/enter.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-clip: content-box;
+        background-position: center;
+
+    }
+    div#landScapeBlock div:nth-of-type(2) {
+        float: left;
+        width: 28%;
+        height: 350px;
+        margin-right: 4%;
+        margin-top: 29px;
+        background-image: url(image/pool14.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-clip: content-box;
+        background-position: center;
+
+    }
+    div#landScapeBlock div:nth-of-type(3) {
+        float: left;
+        width: 28%;
+        height: 350px;
+        margin-right: 4%;
+        margin-top: 29px;
+        background-image: url(image/palm.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-clip: content-box;
+        background-position: center;
+
+    }
+
+    /* FOOTER */
+
+    .foot {
+        color: silver;
+        font-size: 17px;
+        font-family: Kalam;
+        margin-top: 20px;
+    }
+
+    /* HOA AND MGMT STYLES */
+
+    main#mgmt-main {
+        margin: 0 auto;
+        padding-bottom: 150px;
+        width: 95%;
+        height: 1950px;
+        max-width: 1250px;
+    }
+
+    div#mgmt-info {
+        width: 100%;
+        height: 1350px;
+        background-color: whitesmoke;
+        border: solid 2px rgba(0, 0, 0, 0.575);
+        
+    }
+
+    div#mgmt-info div:nth-of-type(1) {
+        float: left;
+        width: 95%;
+        height: 1250px;
+        margin-top: 30px;
+        margin-left: 2.5%;
+        background-color: whitesmoke;
+        text-align: center;
+        font-family: Kalam;
+        
+    }
+
+    .hoa {
+        margin-top: 50px;
+    }
+
+    .mgmt-para {
+        font-size: 16px;
+        width: 100%;
+        padding: 10px;
+    }
+
+    section#mgmt-landScapes {
+        padding-top: 9px;
+        width: 100%;
+        height: 395px;
+        background-color: rgba(0, 0, 0, 0.089);
+        border: solid 2px rgba(0, 0, 0, 0.384);
+        
+    }
+
+    div#mgmt-landScapeBlock {
+        margin: auto;
+        width: 100%;
+        height: 490px;
+        clear: both;
+    }
+
+    div#mgmt-landScapeBlock div:nth-of-type(1) {
+        float: left;
+        width: 44%;
+        height: 300px;
+        margin-right: 4%;
+        margin-left: 4%; 
+        background-image: url(image/pool13.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-clip: content-box;
+        background-position: center;
+    }
+
+    div#mgmt-landScapeBlock div:nth-of-type(2) {
+        float: left;
+        width: 44%;
+        height: 300px;
+        margin-right: 4%; 
+        background-image: url(image/gazebo.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-clip: content-box;
+        background-position: center;
+    }
+
+    /* CONTACT PAGE STYLES */
+
+    main#contact-main {
+        margin: 0 auto;
+        padding-bottom: 150px;
+        width: 95%;
+        height: 1350px;
+        max-width: 1250px;
+    }
+
+    section#contact {
+        height:450px;
+        padding-left: 170px;
+        background-color: whitesmoke;
+        border: solid 2px rgba(0, 0, 0, 0.596);
+        
+    }
+
+    section#contact figure:nth-of-type(1) {
+        float: left;
+        width: 30%;
+        height: 410px;
+        margin-right: 3.5%;
+        margin-left: 0;
+        background-color: whitesmoke;
+        text-align: left;
+        
+    }
+
+    section#contact figure:nth-of-type(2) {
+        float: left;
+        width: 33%;
+        height: 410px;
+        margin-right: 2%;
+        margin-left: 0;
+        background-color: whitesmoke;
+        text-align: left;
+        
+    }
+
+    section#contact figure:nth-of-type(3) {
+        float: right;
+        width: 30%;
+        height: 410px;
+        margin-right: 0;
+        margin-left: 0;
+        background-color: whitesmoke;
+        text-align: left;
+        
+    }
+
+    .contact1 {
+        font-family: Kalam;
+        color: rgba(0, 0, 0, 0.555);
+    }
+
+    .title-placement1 {
+        margin-top: 50px;
+        text-decoration: none;
+        font-family: Kalam;
+        font-size: 22px;
+    }
+
+    .action {
+        font-size: 16px;
+        font-family: Kalam;
+        color: rgba(111, 78, 201, 0.795);
+    }
+
+    .contact2 {
+        font-family: Kalam;
+        color: rgba(0, 0, 0, 0.555);
+    }
+
+    .title-placement2 {
+        margin-top: 50px;
+        text-decoration: none;
+        font-family: Kalam;
+        font-size: 22px;
+    }
+
+    p#questions {
+        margin-top: 48px;
+        margin-right: 48px;
+    }
+
+    .title-placement3 {
+        margin-top: 50px;
+        text-decoration: none;
+        font-family: Kalam;
+        font-size: 22px;
+    }
+
+    .fa-phone {
+        margin-top: 20px;
+        font-size: 18px !important;
+        color: crimson;
+    }
+
+    .fa-envelope {
+        font-size: 18px !important;
+        color: crimson;
+    }
+
+    .fa-globe {
+        font-size: 18px !important;
+        color: crimson;
+    }
+
+    section#map-border {
+        padding-top: 9px;
+        width: 100%;
+        height: 545px;
+        background-color: rgba(0, 0, 0, 0.089);
+        border: solid 2px rgba(0, 0, 0, 0.384);
+        
+    }
+
+    .maps {
+        margin-left: 2.5%;
+        margin-top: 25px;
+        
+    }
+
+    /* PROPERTY PAGE STYLES */
+
+    main#property {
+        padding-bottom: 150px;
+        width: 95%;
+        margin: 0 auto;
+        height: 900px;
+        max-width: 1250px;
+        
+    }
+
+    section#list-maps {
+        height:775px;
+        padding-left: 1%;
+        padding-right: 1%;
+        background-color: whitesmoke;
+        border: solid 2px rgba(0, 0, 0, 0.712);
+        
+    }
+
+    section#list-maps figure:nth-of-type(1) {
+        float: left;
+        width: 100%;
+        margin: 0;
+        height: 743px;
+        margin-top: 15px;
+        /* margin-left: .25%; */
+        background-color: whitesmoke;
+        border: solid 2px rgba(156, 152, 152, 0.199);
+        text-align: left;
+        font-family: Kalam;
+        
+    }
+
+    .deeds-maps {
+        margin-top: 50px;
+        margin-left: 35px;
+        font-size: 26px;
+        text-decoration: none;
+        color: rgba(0, 0, 0, 0.877);
+    }
+
+    .property-lang {
+        margin-top: 25px;
+        margin-left: 20px;
+        width: 92%;
+        font-size: 16px;
+
+    }
+
+    /* Style the navigation menu */
+    .propDox {
+        margin-top: 35px;
+        overflow: hidden;
+        background-color: #333;
+        position: relative;
+    }
+    
+    /* Hide the links inside the navigation menu (except for logo/home) */
+    .propDox #myDox {
+        display: none;
+        z-index: 10;
+    }
+    
+    /* Style navigation menu links */
+    .propDox a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 20px;
+        display: block;
+    }
+    
+    /* Style the hamburger menu */
+    .propDox a.icon {
+        background: black;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    
+    /* Add a grey background color on mouse-over */
+    .propDox a:hover {
+        background-color: rgba(78, 83, 78, 0.048);
+        color: rgba(245, 245, 245, 0.637);
+    }
+    
+    /* Style the active link (or home/logo) */
+    .action1 {
+        width: 95.75%;
+        background-color: rgba(139, 146, 139, 0.24);
+        color: white;
+        text-align: right;
+        
+    } 
+
+    /* Style the navigation menu */
+    .deedDox {
+        margin-top: 35px;
+        overflow: hidden;
+        background-color: #333;
+        position: relative;
+    }
+    
+    /* Hide the links inside the navigation menu (except for logo/home) */
+    .deedDox #myDeeds {
+        display: none;
+        z-index: 10;
+    }
+    
+    /* Style navigation menu links */
+    .deedDox a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 20px;
+        display: block;
+    }
+    
+    /* Style the hamburger menu */
+    .deedDox a.icon {
+        background: black;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+
+    }
+    
+    /* Add a grey background color on mouse-over */
+    .deedDox a:hover {
+        background-color: rgba(78, 83, 78, 0.048);
+        color: rgba(245, 245, 245, 0.637);
+    }
+    
+    /* Style the active link (or home/logo) */
+    .action2 {
+        width: 95.75%;
+        background-color: rgba(139, 146, 139, 0.24);
+        color: white;
+        text-align: right;
+        
+    }
+    /* PARKING AND STORAGE PAGE STYLES */
+
+    main#parkingStorage {
+        margin: 0 auto;
+        padding-bottom: 150px;
+        width: 95%;
+        background-color: grey;
+        max-width: 1250px;
+    }
+
+    section#parking-storage {
+        display: block;
+        width: 100%;
+        height: 5400px;
+        padding-left: .5%;
+        padding-right: 1%;
+        background-color: whitesmoke;
+        border: solid 2px rgba(0, 0, 0, 0.548);
+        
+    }
+
+    section#parking-storage figure:nth-of-type(1) {
+        float: left;
+        width: 100%;
+        height: 5183px;
+        margin-top: 10px;
+        margin-left: .25%;
+        background-color: whitesmoke;
+        text-align: center;
+        font-family: Kalam;
+        
+    }
+
+    .pa {
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+    section#mobile-parking-storage {
+        display: none;
+    }
+
+
+    /* Tablet Styles */
+
+     @media screen and (max-width: 1100px) and (min-width: 750px) {
+
+        /* HOME PAGE STYLES */
+
+    main {
+        padding-bottom: 50px;
+        width: 100%;
+        margin: 0 auto;
+        max-width: 1080px;
+        
+    }
+
+    header#tablet-head1 {
+        display: block;
+        margin-top: -20px;
+        width: 100%;
+        height: 155px;
+        color: white;
+        background-color: rgba(171, 250, 230, 0.411);
+        border: solid 2px rgba(0, 0, 0, 0.384);
+        border-radius: 4px;
+    }
+
+    header#head1 {
+        display: none;
+    }
+
+    header#mobile-head1 {
+        display: none;
+    }
+
+    .travis {
+        width: 40%;
+        float: left;
+        margin-left: 4%;
+        margin-top: 5px;
+        font-family: Kaushan Script;
+        font-size: 45px;
+        margin-bottom: 6px;
+    }
+
+    .travis span {
+        font-size: 65px;
+    }
+
+    .address {
+        width: 40%;
+        margin-left: 5%;
+        font-family: Kaushan Script;
+    }
+
+    /* Style the navigation menu */
+    .tabNav {
+        overflow: hidden;
+        background-color: #333;
+        position: absolute;
+        z-index: 10;
+        top: 11px;
+        right: 10px;
+        width: 35%;
+    }
+
+    /* Hide the links inside the navigation menu (except for logo/home) */
+    .tabNav #tabLinks {
+        display: none;
+        font-family: Kalam;
+        position: relative;
+        z-index: 10;
+        width: 100%;
+    }
+
+    /* Style navigation menu links */
+    .tabNav a {
+        color: whitesmoke;
+        padding: 8px 14px;
+        text-decoration: none;
+        font-size: 19px;
+        display: block;
+    }
+
+    /* Style the hamburger menu */
+    .tabNav a.icon {
+        background: #333;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 5px;
+        bottom: 0;
+    }
+
+    /* Add a grey background color on mouse-over */
+    .tabNav a:hover {
+        /* background-color: #ddd; */
+        color: rgba(245, 245, 245, 0.61);
+    }
+
+    /* Style the active link (or home/logo) */
+    .tabActive {
+        display: none;
+        background-color: rgba(189, 235, 222, 0.692); 
+        color: silver;
+        font-family: Kalam;
+        text-align: right;
+        margin-right: 44px;
+    } 
+
+    /* Slideshow container */ 
+
+    .tablet-slideshow-container {
+        display: block;
+        position: relative; 
+        margin: auto;
+        width: 100%;
+        height: 474px;
+        overflow: hidden;
+        border: solid 2px rgba(0, 0, 0, 0.507);
+            
+    }
+
+    .slideshow-container {
+        display: none;
+    }
+
+    .mobile-slideshow-container {
+        display: none;
+    }
+
+    /* Hide the images by default */
+
+    .mySlides {
+        display: none; 
+        width: 100%;
+        height: 560px;
+        
+    }
+
+    /* Next & previous buttons */
+
+    .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        margin-top: -22px; 
+        padding: 16px;
+        color: silver;
+        font-weight: bold; 
+        font-size: 18px;
+        transition: 0.6s ease; 
+        border-radius: 0 3px 3px 0; 
+        user-select: none;
+    }
+
+    /* Position the "next button" to the right */ 
+
+    .next {
+        right: 0;
+        border-radius: 3px 0 0 3px; }
+
+    /* On hover, add a black background color with a little bit see-through */ 
+
+    .prev:hover, .next:hover {
+        background-color: rgba(0,0,0,0.8); }
+
+    /* Caption text */ 
+
+    .text {
+        color: #f2f2f2; 
+        font-size: 15px; 
+        padding: 8px 12px; 
+        position: absolute; 
+        bottom: 8px; 
+        width: 100%; 
+        text-align: center;
+    }
+
+    .active, .dot:hover { background-color: #717171;
+    }
+
+    /* Fading animation */ 
+
+    .fade {
+        -webkit-animation-name: fade; 
+        -webkit-animation-duration: 1.5s; 
+        animation-name: fade; 
+        animation-duration: 1.5s;
+    }
+
+    @-webkit-keyframes fade {
+
+    from {opacity: .4}
+    to {opacity: 1} }
+    @keyframes fade { from {opacity: .4} to {opacity: 1}
+    }
+
+    /* UPDATES SECTION */
+
+    section#announcements {
+        width: 100%;
+        height: 275px;
+        padding-left: 3.5%;
+        padding-right: 3%;
+        background-color: grey;
+        
+    }
+
+    section#announcements figure:nth-of-type(1) {
+        float: left;
+        width: 65%;
+        height: 202px;
+        margin: 0;
+        margin-right: 3.5%;
+        margin-top: 32px;
+        background-color: whitesmoke;
+    }
+
+    section#announcements figure:nth-of-type(1) div:nth-of-type(1) {
+        width: 70%;
+        height: 180px;
+        float: left;
+        font-family: Kalam;
+
+    }
+
+    h3#welcome {
+        margin-top: 35px;
+        font-size: 17px;
+    }
+
+    p#location {
+        margin-left: 4%;
+        font-size: 14px;
+    }
+
+    section#announcements figure:nth-of-type(1) div:nth-of-type(2) {
+        width: 28%;
+        height: 159px;
+        float: right;
+        border-left: 3px solid rgba(169, 169, 169, 0.356);
+        font-family: Kalam; 
+    }
+
+    .fa-map {
+        color: rgb(81, 19, 138);
+    }
+
+    section#announcements figure:nth-of-type(1) div:nth-of-type(2) ul li:nth-of-type(1) { 
+        margin-top: -5px;
+        text-align: center;
+        font-size: 12px;
+        text-decoration: underline;
+    
+    }
+
+    /* WEATHER WIDGET */
+
+    section#announcements figure:nth-of-type(2) {
+        height: 202px;
+        margin: 0;
+        margin-top: 32px;
+        overflow: hidden;
+        
+    }
+
+
+    /* LANDSCAPE PHOTO SECTION */
+
+    section#landScapes {
+        padding-top: 9px;
+        width: 100%;
+        height: 329px;
+        background-color: grey;
+        
+    }
+
+    div#landScapeBlock {
+        margin: auto;
+        width: 100%;
+        height: 420px;
+        clear: both;
+    }
+    
+    div#landScapeBlock div:nth-of-type(1) {
+        float: left;
+        width: 28%;
+        height: 270px;
+        margin-right: 4%;
+        margin-left: 4%;
+        margin-top: 19px; 
+        background-image: url(image/enter.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-clip: content-box;
+        background-position: center;
+
+    }
+
+    div#landScapeBlock div:nth-of-type(2) {
+        float: left;
+        width: 28%;
+        height: 270px;
+        margin-right: 4%;
+        margin-top: 19px; 
+        background-image: url(image/pool14.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-clip: content-box;
+        background-position: center;
+
+    }
+
+    div#landScapeBlock div:nth-of-type(3) {
+        float: left;
+        width: 28%;
+        height:270px;
+        margin-right: 4%;
+        margin-top: 19px;
+        background-image: url(image/palm.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-clip: content-box;
+        background-position: center;
+
+    }
+
+    /* FOOTER */
+
+    .foot {
+        color: silver;
+        font-size: 17px;
+        font-family: Roboto Mono;
+        margin-top: 20px;
+    }
+
+
+    /* HOA AND MGMT STYLES */
+
+    main#mgmt-main {
+        margin: 0 auto;
+        padding-bottom: 50px;
+        width: 100%;
+        height: 1950px;
+    }
+
+    div#mgmt-info {
+        width: 100%;
+        height: 1350px;
+        background-color: whitesmoke;
+        
+    }
+
+    div#mgmt-info div:nth-of-type(1) {
+        float: left;
+        width: 95%;
+        height: 1290px;
+        margin-top: 26.5px;
+        margin-left: 2.5%;
+        background-color: whitesmoke;
+        text-align: center;
+        font-family: Kalam;
+        
+    }
+
+    .mgmt-para {
+        font-size: 14px;
+        width: 100%;
+        padding: 15px;
+    }
+
+    section#mgmt-landScapes {
+        padding-top: 9px;
+        width: 100%;
+        height: 429px;
+        background-color: grey;
+        
+    }
+
+    div#mgmt-landScapeBlock {
+        margin: auto;
+        width: 100%;
+        height: 550px;
+        clear: both;
+    }
+
+    div#mgmt-landScapeBlock div:nth-of-type(1) {
+        float: left;
+        width: 44%;
+        height: 350px;
+        margin-right: 4%;
+        margin-left: 4%;
+        background-image: url(image/pool13.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-clip: content-box;
+        background-position: center;
+    }
+
+    div#mgmt-landScapeBlock div:nth-of-type(2) {
+        float: left;
+        width: 44%;
+        height: 350px;
+        margin-right: 4%;
+        background-image: url(image/gazebo.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-clip: content-box;
+        background-position: center;
+    }
+
+    /* CONTACT PAGE STYLES */
+
+    main#contact-main {
+        margin: 0 auto;
+        padding-bottom: 50px;
+        width: 100%;
+        height: 1250px;
+    }
+
+    section#contact {
+        height:420px;
+        padding-left: 1%;
+        padding-right: 1%;
+        background-color: whitesmoke;
+        
+    }
+
+    section#contact figure:nth-of-type(1) {
+        float: left;
+        width: 33%;
+        height: 390px;
+        margin-right: 1%;
+        margin-left: 0;
+        margin-top: 15px;
+        background-color: whitesmoke;
+        text-align: center;
+        
+    }
+
+    section#contact figure:nth-of-type(2) {
+        float: left;
+        width: 33%;
+        height: 390px;
+        margin-right: 0;
+        margin-left: 0;
+        margin-top: 15px;
+        background-color: whitesmoke;
+        text-align: center;
+        border-left: solid 3px rgba(0, 0, 0, 0.24);
+        
+    }
+
+    section#contact figure:nth-of-type(3) {
+        float: right;
+        width: 32%;
+        height: 390px;
+        margin-right: 0;
+        margin-left: 0;
+        margin-top: 15px;
+        background-color: whitesmoke;
+        text-align: center;
+        border-left: solid 3px rgba(0, 0, 0, 0.24);
+        
+    }
+
+    .contact1 {
+        font-family: Kalam;
+        color: rgba(0, 0, 0, 0.555);
+    }
+
+    .title-placement1 {
+        margin-top: 40px;
+        text-decoration: none;
+        font-family: Kalam;
+        font-size: 20px;
+    }
+
+    .contact1 h4 {
+        font-size: 16px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .action {
+        font-size: 16px;
+        font-family: Kalam;
+        color: rgba(0, 0, 255, 0.795);
+    }
+
+    .contact2 {
+        font-family: Kalem;
+        color: rgba(0, 0, 0, 0.555);
+    }
+    .title-placement2 {
+        margin-top: 40px;
+        padding-left: 7px;
+        text-decoration: none;
+        font-family: Kalam;
+        font-size: 20px;
+    }
+
+    p#questions {
+        margin-top: 8px;
+        margin-left: 15px;
+        margin-right: 15px;
+        padding-left: 8px;
+    }
+
+    .title-placement3 {
+        margin-top: 40px;
+        text-decoration: none;
+        font-family: Kalam;
+        font-size: 20px;
+    }
+
+    .fa-phone {
+        margin-top: 20px;
+        font-size: 18px !important;
+        color: crimson;
+    }
+
+    .fa-envelope {
+        font-size: 18px !important;
+        color: crimson;
+    }
+
+    .fa-globe {
+        font-size: 18px !important;
+        color: crimson;
+    }
+
+    section#map-border {
+        padding-top: 9px;
+        width: 100%;
+        height: 545px;
+        background-color: grey;
+        
+    }
+
+    .maps {
+        margin-left: 2.5%;
+        margin-top: 25px;
+        
+    }
+
+    /* PROPERTY PAGE STYLES */
+
+    main#property {
+        padding-bottom: 50px;
+        width: 100%;
+        margin: 0 auto;
+        height: 900px;
+        
+    }
+
+    section#list-maps {
+        height: 793px;
+        padding-left: 3%;
+        padding-right: 3%;
+        background-color: whitesmoke;
+        
+    }
+
+    section#list-maps figure:nth-of-type(1) {
+        float: left;
+        width: 100%;
+        margin: 0;
+        height: 733px;
+        margin-top: 30px;
+        margin-left: .25%;
+        background-color: whitesmoke;
+        text-align: left;
+        font-family: Kalam;
+        
+    }
+
+    .action1 {
+        width: 94%;
+        background-color: rgba(139, 146, 139, 0.24);
+        color: white;
+
+    } 
+
+    .action2 {
+        width: 94%;
+        background-color: rgba(139, 146, 139, 0.24);
+        color: white;
+    }
+
+    .deeds-maps {
+        margin-top: 30px;
+        margin-left: 25px;
+        font-size: 24px;
+        color: rgba(0, 0, 0, 0.753);
+    }
+
+    .docs {
+        /* padding: 0; */
+        list-style-type: none;
+        text-align: justify;
+        width: 80%;
+    }
+
+    .property-lang {
+        margin-left: 25px;
+        width: 88%;
+
+    }
+
+    /* PARKING AND STORAGE PAGE STYLES */
+
+    main#parkingStorage {
+        margin: 0 auto;
+        padding-bottom: 50px;
+        width: 100%;
+        height: 4580px;
+    }
+
+    section#parking-storage {
+        width: 100%;
+        height: 5380px;
+        padding-left: 3%;
+        padding-right: 3%;
+        background-color: whitesmoke;
+        border: solid 2px rgba(0, 0, 0, 0.548);
+        
+    }
+
+    section#parking-storage figure:nth-of-type(1) {
+        float: left;
+        width: 100%;
+        height: 5350px;
+        margin-top: 10px;
+        margin-left: .25%;
+        background-color: whitesmoke;
+        text-align: center;
+        font-family: Kalam;
+        
+    }
+
+    section#mobile-parking-storage {
+        display: none;
+    }
+
+    .pa {
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+
+    .foot {
+        font-family: Kalam;
+    }
+
+    }
+
+
+
+
+    /* On screens that are 750px or less, set the background color to olive */
+
+    @media screen and (max-width: 750px) {
+
+        body {
+            background-color: rgba(0, 0, 0, 0);
+        }
+
+        header#head1 {
+            display: none;
+        }
+
+        main {
+            padding-bottom: 50px;
+            width: 97%;
+            margin: 0 auto;
+            height: 830px;
+        }
+
+        header#mobile-head1 {
+            display: block;
+            background-color: rgba(171, 250, 230, 0.411);
+            border: solid 2px rgba(0, 0, 0, 0.384); 
+            border-radius: 3px;
+            margin-top: -30px;
+        }
+
+        .travis {
+            font-size: 35px;
+            margin-left: 6%;
+            font-family: Kaushan Script;
+        }
+
+        .travis span {
+            font-size: 55px;
+        }
+
+        .address {
+            margin-top: -10px;
+            margin-left: 8%;
+            font-size: 15px;
+            font-family: Kaushan Script;
+        }
+
+        /* Style the navigation menu */
+        .topnav {
+            overflow: hidden;
+            background-color: #333;
+            position: relative;
+            z-index: 10;
+        }
+    
+        /* Hide the links inside the navigation menu (except for logo/home) */
+        .topnav #myLinks {
+            display: none;
+            font-family: Kalam;
+            z-index: 10;
+        }
+        
+        /* Style navigation menu links */
+        .topnav a {
+            color: white;
+            padding: 10px 16px;
+            text-decoration: none;
+            font-size: 17px;
+            display: block;
+        }
+        
+        /* Style the hamburger menu */
+        .topnav a.icon {
+            background-color: #333;
+            display: block;
+            position: absolute;
+            right: 0;
+            top: 0;
+            bottom: 0;
+        }
+        
+        /* Add a grey background color on mouse-over */
+        .topnav a:hover {
+            color: rgba(245, 245, 245, 0.767);
+        }
+        
+        /* Style the active link (or home/logo) */
+        .active {
+            background-color: rgba(177, 218, 207, 0.767);
+            border-top: solid 2px rgba(0, 0, 0, 0.384);
+            font-family: Kalam;
+        } 
+
+        .mobile-slideshow-container {
+            display: block;
+            height: 249px;
+            overflow: hidden;
+            border: solid 2px rgba(0, 0, 0, 0.575);
+        }
+
+        .slideshow-container {
+            display: none;
+        }
+
+        .tablet-slideshow-container {
+            display: none;
+        }
+
+
+        .text {
+            display: none;
+        }
+
+        /* UPDATES SECTION */
+
+    section#announcements {
+        width: 100%;
+        height: 198px;
+        background-color: whitesmoke;
+        border: solid 2px rgba(0, 0, 0, 0.651);
+        
+    }
+
+    section#announcements figure:nth-of-type(1) {
+        float: left;
+        width: 100%;
+        height: 180px;
+        margin: 0;
+        margin-right: 2%;
+        
+    }
+
+    section#announcements figure:nth-of-type(1) div:nth-of-type(1) {
+        width: 100%;
+        height: 120px;
+        float: left;
+        font-family: kalam;
+
+    }
+
+    h3#welcome {
+        margin-top: 21px;
+        padding-left: 1.5%;
+
+    }
+
+    p#location {
+        margin-left: 1.5%;
+        margin-right: 3.5%;
+        font-size: 15px;
+
+    }
+
+    section#announcements figure:nth-of-type(1) div:nth-of-type(2) {
+        display: none;
+    }
+
+    section#announcements figure:nth-of-type(1) div:nth-of-type(2) ul {
+        list-style-type: none;
+
+    }
+
+    section#announcements figure:nth-of-type(1) div:nth-of-type(2) ul li:nth-of-type(1){ 
+        margin-top: -15px;
+        margin-left: -20px;
+        font-size: 16px;
+        text-decoration: none;
+
+    }
+
+    section#announcements figure:nth-of-type(2) {
+        display: none;
+    }
+
+    /* LANDSCAPE PHOTO SECTION */
+
+    section#landScapes {
+        margin-top: 3px;
+        padding-top: 9px;
+        width: 100%;
+        height: 260px;
+        background-color: grey;
+        
+    }
+
+    div#landScapeBlock {
+        height: 300px;
+    }
+    
+    div#landScapeBlock div:nth-of-type(1) {
+        float: left;
+        width: 43.5%;
+        height: 230px;
+        margin-right: 4%;
+        margin-left: 4.5%;
+        margin-top: 5px;
+        background-image: url(image/enter.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-clip: content-box;
+        background-position: center;
+
+    }
+
+    div#landScapeBlock div:nth-of-type(2) {
+        display: none;
+
+    }
+
+    div#landScapeBlock div:nth-of-type(3) {
+        float: left;
+        width: 43.5%;
+        height: 230px;
+        margin-right: 4%;
+        margin-top: 5px;  
+        background-image: url(image/palm.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-clip: content-box;
+        background-position: center;
+
+    }
+
+    .foot {
+        font-size: 15px;
+
+    }
+
+    /* HOA AND MGMT STYLES */
+
+    main#mgmt-main {
+        margin: 0 auto;
+        padding-bottom: 50px;
+        width: 97%;
+        height: 2000px;
+    }
+
+    div#mgmt-info {
+        width: 100%;
+        height: 1835px;
+        background-color: whitesmoke;
+        border: none;
+        
+    }
+
+    div#mgmt-info div:nth-of-type(1) {
+        width: 90%;
+        height: 1810px;
+        margin-top: 15px;
+        margin-left: 5%;
+        padding-left: 3%;
+        padding-right: 3%;
+        background-color: whitesmoke;
+        text-align: center;
+        font-family: Kalam;
+        
+    }
+
+    .mgmt-para {
+        font-size: 14px;
+        width: 100%;
+        padding: 10px;
+    }
+
+    section#mgmt-landScapes {
+        display: none;
+    }
+
+    div#mgmt-landScapeBlock {
+        display: none;
+    }
+
+    div#mgmt-landScapeBlock div:nth-of-type(1) {
+        display: none;
+    }
+
+    div#mgmt-landScapeBlock div:nth-of-type(2) {
+        display: none;
+    }
+
+    /* CONTACT PAGE STYLES */
+
+    main#contact-main {
+        margin: 0 auto;
+        width: 97%;
+        height: 1350px;
+    }
+
+    section#contact {
+        height:905px;
+        padding-left: 2%;
+        padding-right: 2%;
+        background-color: whitesmoke;
+        
+    }
+
+    section#contact figure:nth-of-type(1) {
+        width: 100%;
+        height: 315px;
+        margin-right: 5%;
+        margin-left: 0;
+        margin-top: 10px;
+        background-color: whitesmoke;
+        text-align: center;
+        font-family: Kalam;
+        
+    }
+
+    section#contact figure:nth-of-type(2) {
+        width: 80%;
+        height: 340px;
+        margin-right: 5%;
+        margin-left: 10%;
+        margin-top: 1px;
+        background-color: whitesmoke;
+        text-align: center;
+        font-family: Kalam;
+        border-top: solid 3px rgb(184, 174, 174);
+        border-bottom: solid 3px rgb(184, 174, 174);
+        border-left: none;
+        
+    }
+
+    section#contact figure:nth-of-type(3) {
+        width: 100%;
+        height: 170px;
+        margin-right: 0;
+        margin-left: 0;
+        margin-top: 1px;
+        background-color: whitesmoke;
+        text-align: center;
+        font-family: Kalam;
+        border-left: none;
+        
+    }
+
+    .contact1 {
+        font-family: Kalam;
+        color: rgba(0, 0, 0, 0.555);
+    }
+
+    .title-placement1 {
+        margin-top: 14px;
+        text-decoration: none;
+        font-family: Kalam;
+        font-size: 18px;
+    }
+
+    .action {
+        font-size: 16px;
+        font-family: Kalam;
+        color: rgba(0, 0, 255, 0.795);
+    }
+
+    .contact2 {
+        font-family: Roboto;
+        color: rgba(0, 0, 0, 0.555);
+    }
+
+    .title-placement2 {
+        margin-top: 22px;
+        text-decoration: none;
+        font-family: Kalam;
+        font-size: 18px;
+    }
+
+    p#questions {
+        margin-top: 2px;
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+
+    .title-placement3 {
+        margin-top: 10px;
+        text-decoration: none;
+        font-family: Kalam;
+        font-size: 18px;
+    }
+
+    .fa-phone {
+        margin-top: 10px;
+        font-size: 18px !important;
+        color: crimson;
+    }
+
+    .fa-envelope {
+        font-size: 18px !important;
+        color: crimson;
+    }
+
+    .fa-globe {
+        font-size: 18px !important;
+        color: crimson;
+    }
+
+    section#map-border {
+        padding-top: 9px;
+        width: 100%;
+        height: 345px;
+        background-color: grey;
+        border: none;
+        
+    }
+
+    .maps {
+        height: 325px;
+        margin-right: 2.5%;
+        margin-top: 2px;
+        
+    }
+
+    /* PROPERTY PAGE STYLES */
+
+    main#property {
+        padding-bottom: 50px;
+        width: 97%;
+        margin: 0 auto;
+        height: 960px;
+        
+    }
+
+    section#list-maps {
+        width: 100%;
+        height: 845px;
+        padding-left: .25%;
+        padding-right: .25%;
+        background-color: whitesmoke;
+        
+    }
+
+    section#list-maps figure:nth-of-type(1) {
+        width: 100%;
+        margin: 0;
+        height: 835px;
+        margin-top: 3.5px;
+        margin-left: .25%;
+        background-color: whitesmoke;
+        text-align: left;
+        font-family: Kalam;
+        
+    }
+
+    .action1 {
+        width: 87.75%;
+        background-color: rgba(139, 146, 139, 0.24);
+        color: white;
+        text-align: right;
+
+    } 
+
+    .action2 {
+        width: 87.75%;
+        background-color: rgba(139, 146, 139, 0.24);
+        color: white;
+        text-align: right;
+    }
+
+
+    .deeds-maps {
+        margin-top: 25px;
+        margin-left: 20px;
+        font-size: 20px;
+        text-decoration: none;
+        color: rgba(0, 0, 0, 0.918);
+    }
+
+    .docs {
+        font-size: 14px;
+        list-style-type: none;
+        text-align: justify;
+        width: 85%;
+    }
+
+    .property-lang {
+        margin-left: 20px;
+        width: 88%;
+    }
+
+    /* PARKING AND STORAGE PAGE STYLES */
+
+    main#parkingStorage {
+        margin: 0 auto;
+        padding-bottom: 50px;
+        width: 100%;
+        height: 4520px;
+        background-color: grey;
+    }
+
+    section#mobile-parking-storage {
+        display: block;
+        width: 100%;
+        height: 480px;
+        background-color: whitesmoke;
+        border: solid 2px rgba(0, 0, 0, 0.548);
+        
+    }
+
+    section#mobile-parking-storage figure:nth-of-type(1) {
+        float: left;
+        width: 100%;
+        height: 420px;
+        margin-top: .5px;
+        margin-left: .25%;
+        background-color: whitesmoke;
+        text-align: center;
+        font-family: Kalam;
+        
+    }
+
+    section#mobile-parking-storage figure:nth-of-type(2) {
+        float: left;
+        width: 100%;
+        height: auto;
+        margin-top: 60px;
+        margin-left: .05%;
+        padding-top: 35px;
+        background-color: whitesmoke;
+        border: solid 2px rgba(0, 0, 0, 0.548);
+        /* text-align: center; */
+        font-family: Kalam;
+        
+    }
+
+    section#parking-storage {
+        display: none;
+    }
+
+    .pa {
+        margin-left: 7%;
+        margin-right: 7%;
+    }
+
+    .foot {
+        font-family: Kalam;
+    }
+
+    }
